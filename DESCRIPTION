@@ -1,0 +1,31 @@
+Package: acanva
+Type: Package
+Title: Accounting analysis and valuation
+Version: 0.1.0
+Authors@R: 
+    person(given = "Nicolas",
+           family = "Mangin",
+           role = c("aut", "cre"),
+           email = "nicolas.jb.mangin@gmail.com",
+           comment = c(ORCID = "0000-0002-1597-9376"))
+Description: Package containing data and functions for courses in financial accounting, financial analysis, and corporate valuation.
+Encoding: UTF-8
+License: GPL-3 | file LICENSE
+Depends: R (>= 4.1)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+LazyData: true
+Imports:
+  FinCal,
+  FinancialMath,
+  dplyr,
+  ggplot2,
+  ggrepel,
+  purrr,
+  tibble,
+  tidyr,
+  broom,
+  stringr,
+  kableExtra,
+  lubridate
+  
